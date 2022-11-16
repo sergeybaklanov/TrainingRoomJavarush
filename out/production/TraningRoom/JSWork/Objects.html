@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var _myFirstObject = {
+        name:"Sergey",
+        age:31,
+        address:"the city of Harkiv",
+        yearsOld: 32
+    }
+    document.write(_myFirstObject.name);
+    document.write(_myFirstObject.age);
+    document.write(_myFirstObject["address"]);
+    document.write(_myFirstObject["yearsOld"]);
+
+    function myObject(name,age,color){
+        this.name=name;
+        this.age=age;
+        this.color=color;
+    }
+
+    var person = new myObject("Sergey",32,"white");
+    document.write(person.age);
+    document.write(person.name);
+    document.write(person.color);
+
+
+
+    var person2 = {
+        myMethod = function (x,y) {
+            return x*y;
+        }
+    }
+    person2
+
+
+
+</script>
+</body>
+</html>

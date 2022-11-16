@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Pattern.Adapter</OriginalElement>
+  <nodes>
+    <node x="96.75" y="104.0">Pattern.Adapter.ConcreteAdapter</node>
+    <node x="196.0" y="0.0">Pattern.Adapter.Adapter</node>
+    <node x="0.0" y="0.0">Pattern.Adapter.Adaptee</node>
+    <node x="106.25" y="254.0">Pattern.Adapter.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Pattern.Adapter.ConcreteAdapter" target="Pattern.Adapter.Adaptee">
+      <point x="-42.0" y="-50.0" />
+      <point x="138.75" y="79.0" />
+      <point x="132.0" y="79.0" />
+      <point x="44.0" y="27.0" />
+    </edge>
+    <edge source="Pattern.Adapter.Client" target="Pattern.Adapter.ConcreteAdapter">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="Pattern.Adapter.Client" target="Pattern.Adapter.Adaptee">
+      <point x="-49.66666666666666" y="-27.0" />
+      <point x="131.08333333333334" y="229.0" />
+      <point x="63.5" y="229.0" />
+      <point x="63.5" y="79.0" />
+      <point x="44.0" y="79.0" />
+      <point x="-44.0" y="27.0" />
+    </edge>
+    <edge source="Pattern.Adapter.ConcreteAdapter" target="Pattern.Adapter.Adapter">
+      <point x="42.0" y="-50.0" />
+      <point x="222.75" y="79.0" />
+      <point x="229.5" y="79.0" />
+      <point x="-33.5" y="27.0" />
+    </edge>
+    <edge source="Pattern.Adapter.Client" target="Pattern.Adapter.Adapter">
+      <point x="49.66666666666666" y="-27.0" />
+      <point x="230.41666666666666" y="229.0" />
+      <point x="289.25" y="229.0" />
+      <point x="289.25" y="79.0" />
+      <point x="296.5" y="79.0" />
+      <point x="33.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="255.5" y="201.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
